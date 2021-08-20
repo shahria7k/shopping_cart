@@ -10,7 +10,6 @@ for (let btn of btns) {
                 let count = e.target.parentElement.children[1].value;
                 e.target.parentElement.children[1].value = ++count;
                 console.log(e.target.parentElement.parentElement.children[1].lastChild.innerText);
-
             } else {
                 let count = e.target.parentElement.children[1].value;
                 if (count > 0) {
